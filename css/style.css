@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: black;
+
+}
+
+header{
+  background-color: lightgrey;
+  height: 50px;
+  display: flex;
+  justify-content:flex-end;
+  align-items: center;
+}
+
+main{
+   height: calc(100vh - 100px);
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   font-size: 10px;
+   overflow-x: auto;
+   color: white;
+   padding: 10px 0;
+}
+
+.scheda{
+  flex-basis: calc(100% / 6);
+  margin-bottom: 10px;
+}
+
+.scheda-info{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
